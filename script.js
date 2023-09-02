@@ -9,7 +9,7 @@ switch (treeHeight){
         alert("Enter bigger number");
         break;
     default:
-        console.log(`Дякуємо! Починаємо побудову ялинки з висотою ${treeHeight}.`)
+        console.log(`Дякуємо! Починаю побудову ялинки з висотою ${treeHeight}.`)
         for (let i = 1; i <= treeHeight; i++) {
             let spaces = " ".repeat(treeHeight - i);
             let sticks = "|".repeat(2 * i - 1);
